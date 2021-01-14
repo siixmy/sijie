@@ -93,7 +93,7 @@ public class DBRouteConfigurer {
             hdRelationMapTp.put(dbId, phId);
         }
 
-
+         Integer a=new Integer();
         allRouteHIDs = Sets.newHashSet(hdRelationMapTp.values());
     }
 
