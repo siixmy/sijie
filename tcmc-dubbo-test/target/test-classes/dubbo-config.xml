@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <bean id="config"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:/config.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--增加路由是否打开的配置项-->
+    <bean id="switchRoute" class="com.tcmc.dispatcher.SwitchRoute" factory-method="InitSwitchRoute">
+        <constructor-arg value="true"/>
+    </bean>
+
+    <bean class="com.tcmc.dubbo.ng.DBRouteConfigurer" init-method="init">
+        <constructor-arg index="0" value="${dbroute.pHIdDbRelation}"/>
+    </bean>
+
+    <!--consumer-->
+    <dubbo:application name="tc-dubbo-test"/>
+    <dubbo:registry address="${dubbo.registry.address}" timeout="${dubbo.registry.timeout}" check="false"/>
+    <dubbo:consumer check="false" filter="addHospitalIdDubbo2DubboId,default"/>
+
+
+    <dubbo:reference id="rVipDepositService" interface="com.tcmc.crm.vip.api.r.IRVipDepositService"
+                     version="${dubbo.crm.version}" group="${dubbo.crm.group}"/>
+    <dubbo:reference id="crmAppointDpiService" interface="com.tcmc.crm.appoint.api.t.ICrmAppointDpiService"
+                     version="${dubbo.crm.version}" group="${dubbo.crm.group}"/>
+    <dubbo:reference id="fugouOrdersDpiService" interface="com.tcmc.crm.appoint.api.t.IFugouOrdersDpiService"
+                     version="${dubbo.crm.version}" group="${dubbo.crm.group}"/>
+    <dubbo:reference id="rMembershipDpiService" interface="com.tcmc.crm.vip.api.r.IRMembershipDpiService"
+                     version="${dubbo.crm.version}" group="${dubbo.crm.group}"/>
+    <!--  <dubbo:reference id="customerCardDpiService" interface="com.tcmc.crm.vip.api.t.ICustomerCardDpiService"
+                       version="${spring.dubbo.crm.version}" group="${spring.dubbo.crm.group}"/>
+    -->
+    <!--这里导入需要测试的dubbo api-->
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName"><value>org.postgresql.Driver</value></property>
+        <property name="url"><value>jdbc:postgresql://10.1.10.215:1233/crm3</value></property>
+        <property name="username"><value>postgres</value></property>
+        <property name="password"><value>pg123</value></property>
+
+    </bean>
+</beans>

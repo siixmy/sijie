@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.zookeeper:zookeeper:3.3.3-tc">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.3.3-tc/zookeeper-3.3.3-tc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.3.3-tc/zookeeper-3.3.3-tc-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.3.3-tc/zookeeper-3.3.3-tc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

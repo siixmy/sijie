@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tcmc-udc:tcmc-dbservice-com:2.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-com/2.1.2-SNAPSHOT/tcmc-dbservice-com-2.1.2-20161119.073853-23.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-com/2.1.2-SNAPSHOT/tcmc-dbservice-com-2.1.2-20161119.073853-23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-com/2.1.2-SNAPSHOT/tcmc-dbservice-com-2.1.2-20161119.073853-23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

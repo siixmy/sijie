@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tcmc-udc:tcmc-dbservice-appointapi:2.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-appointapi/2.1.2-SNAPSHOT/tcmc-dbservice-appointapi-2.1.2-20161119.073859-33.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-appointapi/2.1.2-SNAPSHOT/tcmc-dbservice-appointapi-2.1.2-20161119.073859-33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-appointapi/2.1.2-SNAPSHOT/tcmc-dbservice-appointapi-2.1.2-20161119.073859-33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

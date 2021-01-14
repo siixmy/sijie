@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tcmc-crm:crm-vip-api:3.3.11.p2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/crm-vip-api/3.3.11.p2-SNAPSHOT/crm-vip-api-3.3.11.p2-20180705.091941-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/crm-vip-api/3.3.11.p2-SNAPSHOT/crm-vip-api-3.3.11.p2-20180705.091941-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/crm-vip-api/3.3.11.p2-SNAPSHOT/crm-vip-api-3.3.11.p2-20180705.091941-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

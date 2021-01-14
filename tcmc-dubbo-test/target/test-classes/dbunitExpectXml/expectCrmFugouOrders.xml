@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+       <crm_fugou_orders  order_no="23543550" purchaser_name="66" purchaser_sex="1" purchaser_mobile="4454343"
+                         cert_type="[null]" cert_no="[null]" parent_hospital_id="6" sub_hospital_id="33" disease_type="1"
+                         doctor_name="呵呵" purchaser_birth="2018-03-29" product_name="333" product_num="1"
+                         order_status="1"  handle_type="1"/>
+</dataset>

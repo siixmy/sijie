@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tcmc-crm:tcmc-crm-s-api:3.3.11.p2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/tcmc-crm-s-api/3.3.11.p2-SNAPSHOT/tcmc-crm-s-api-3.3.11.p2-20180705.091938-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/tcmc-crm-s-api/3.3.11.p2-SNAPSHOT/tcmc-crm-s-api-3.3.11.p2-20180705.091938-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-crm/tcmc-crm-s-api/3.3.11.p2-SNAPSHOT/tcmc-crm-s-api-3.3.11.p2-20180705.091938-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tcmc-udc:tcmc-dbservice-sms-api:2.3.6.p3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-sms-api/2.3.6.p3-SNAPSHOT/tcmc-dbservice-sms-api-2.3.6.p3-20180510.013858-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-sms-api/2.3.6.p3-SNAPSHOT/tcmc-dbservice-sms-api-2.3.6.p3-20180510.013858-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tcmc-udc/tcmc-dbservice-sms-api/2.3.6.p3-SNAPSHOT/tcmc-dbservice-sms-api-2.3.6.p3-20180510.013858-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
