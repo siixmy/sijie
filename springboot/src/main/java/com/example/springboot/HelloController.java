@@ -10,6 +10,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello Sping Boot!aaaaddcc";
+        return "Hello Sping Boot!aaaahhjj";
     }
 }
